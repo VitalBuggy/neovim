@@ -15,10 +15,12 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/tagbar'
 Plug 'beauwilliams/focus.nvim'
+Plug 'ap/vim-css-color'
 
 " Colorschemes
 Plug 'phanviet/vim-monokai-pro'
 Plug 'real-99/onedarker.nvim'
+Plug 'sainnhe/gruvbox-material'
 
 call plug#end()
 
@@ -40,8 +42,8 @@ if (has("termguicolors"))
 endif
 
 set background=dark
-colorscheme onedarker
-let g:lightline = { 'colorscheme': 'one' }
+colorscheme gruvbox-material
+let g:lightline = { 'colorscheme': 'gruvbox_material' }
 
 let mapleader=' '
 
